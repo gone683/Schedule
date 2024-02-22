@@ -7,6 +7,11 @@
  4. 인앱결제 확인하고 추가하기 
     //https://www.youtube.com/watch?v=qNz3vmXZEcM
     //https://nicgoon.tistory.com/224
+
+AppStoreConnect에 앱 등록해놓고.앱 내 추가 기능 - 앱 내 구입에다가 제품ID 코드랑 똑같이 넣어주고.
+AppStoreConnect에 AppStore에 IOS앱에 해당앱(제출준비중) 선택하여 앱 내 구입에 해당 상품 추가해주고.
+해당 앱 Identifiers에 In-App Purchase Enabled처리 해놨고요.
+
  5. 기본앱 하나 만들어서 구글,애플 로그인 확인, 파이어베이스확인, 리더보드확인 
 
 - 픽셀앱
