@@ -13,7 +13,7 @@ private void Update()
         if (hit1.collider != null)
         {
             // 레이가 충돌한 객체가 "Ground"인 경우
-            if (hit1.collider.CompareTag("Ground"))
+            if (hit1.collider.CompareTag("Ground") || hit3.collider.CompareTag("GamePiece"))
             { 
 		Vector2 hit1point = hit1.point - (Vector2)transform.localScale / 2; 
                 lr.positionCount = 2;
@@ -30,7 +30,7 @@ private void Update()
                 if (hit2.collider != null)
                 {
                     // 레이가 충돌한 객체가 "Ground"인 경우
-                    if (hit2.collider.CompareTag("Ground"))
+                    if (hit2.collider.CompareTag("Ground") || hit3.collider.CompareTag("GamePiece"))
                     { 
 			Vector2 hit2point = hit2.point - (Vector2)transform.localScale / 2; 
                         lr.positionCount = 3;
@@ -47,8 +47,7 @@ private void Update()
 
                         if (hit3.collider != null)
                         {
-                            // 레이가 충돌한 객체가 "Ground" 또는 "Wall"인 경우
-                            if (hit3.collider.CompareTag("Ground") || hit3.collider.CompareTag("Wall"))
+                            if (hit3.collider.CompareTag("Ground") || hit3.collider.CompareTag("Wall") || 													hit3.collider.CompareTag("GamePiece"))
                             { 
 				Vector2 hit3point = hit3.point - (Vector2)transform.localScale / 2; 
                                 lr.positionCount = 4;
