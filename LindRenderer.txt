@@ -1,0 +1,66 @@
+private void Update()
+{
+    startPoint = transform.position;
+    endPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    Vector2 direction = endPos - startPoint;
+
+    // 마우스 클릭 처리
+    if (Input.GetMouseButtonDown(0))
+    {         
+        // 1번 타겟 설정
+        RaycastHit2D hit1 = Physics2D.Raycast(startPoint, direction, maxDistance);
+
+        if (hit1.collider != null)
+        {
+            // 레이가 충돌한 객체가 "Ground"인 경우
+            if (hit1.collider.CompareTag("Ground"))
+            { 
+		Vector2 hit1point = hit1.point - (Vector2)transform.localScale / 2; 
+                lr.positionCount = 2;
+                lr.SetPosition(0, startPoint);
+                lr.SetPosition(1, hit1point);
+            }
+            // 레이가 충돌한 객체가 "Wall"인 경우
+            else if (hit1.collider.CompareTag("Wall"))
+            {
+                // 벽에 대한 반사 방향 계산
+                Vector2 reflectDir2 = Vector2.Reflect(hit1.point - startPoint, hit1.normal);
+                RaycastHit2D hit2 = Physics2D.Raycast(hit1.point, reflectDir2, maxDistance);
+
+                if (hit2.collider != null)
+                {
+                    // 레이가 충돌한 객체가 "Ground"인 경우
+                    if (hit2.collider.CompareTag("Ground"))
+                    { 
+			Vector2 hit2point = hit2.point - (Vector2)transform.localScale / 2; 
+                        lr.positionCount = 3;
+                        lr.SetPosition(0, startPoint);
+                        lr.SetPosition(1, hit1point);
+                        lr.SetPosition(2, hit2point);
+                    }
+                    // 레이가 충돌한 객체가 "Wall"인 경우
+                    else if (hit2.collider.CompareTag("Wall"))
+                    {
+                        // 두 번째 벽에 대한 반사 방향 계산
+                        Vector2 reflectDir3 = Vector2.Reflect(hit2.point - hit1.point, hit2.normal);
+                        RaycastHit2D hit3 = Physics2D.Raycast(hit2.point, reflectDir3, maxDistance);
+
+                        if (hit3.collider != null)
+                        {
+                            // 레이가 충돌한 객체가 "Ground" 또는 "Wall"인 경우
+                            if (hit3.collider.CompareTag("Ground") || hit3.collider.CompareTag("Wall"))
+                            { 
+				Vector2 hit3point = hit3.point - (Vector2)transform.localScale / 2; 
+                                lr.positionCount = 4;
+                                lr.SetPosition(0, startPoint);
+                                lr.SetPosition(1, hit1point);
+                                lr.SetPosition(2, hit2point);
+                                lr.SetPosition(3, hit3point);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
