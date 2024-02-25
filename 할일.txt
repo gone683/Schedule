@@ -17,6 +17,7 @@ AppStoreConnect에 AppStore에 IOS앱에 해당앱(제출준비중) 선택하여
 - 픽셀앱
  1. 열, 행 이미지와 클리어 모션 수정
  2. 맥 오면 빌드업후 출시까지 https://doch12.tistory.com/70
+  https://hsdev.tistory.com/entry/iOS-%EC%95%B1-%EB%B0%B0%ED%8F%AC-5-xcode-Archive-%ED%95%98%EA%B8%B0
  3. 구글애즈 홍보하기 (유튜브 구글애즈 검색 하여 마케팅까지해보자) //https://happyryu.tistory.com/m/389
 
 - 탕후루
