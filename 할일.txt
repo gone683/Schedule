@@ -25,6 +25,10 @@ AppStoreConnect에 AppStore에 IOS앱에 해당앱(제출준비중) 선택하여
   https://doch12.tistory.com/70
   https://hsdev.tistory.com/entry/iOS-%EC%95%B1-%EB%B0%B0%ED%8F%AC-5-xcode-Archive-%ED%95%98%EA%B8%B0
   https://learnandcreate.tistory.com/2317?category=1191178
+  빌드에러 
+  -Undefined symbols:
+  - Linker command failed with exit code 1 (use -v to see invoation)
+  
  3. 구글애즈 홍보하기 (유튜브 구글애즈 검색 하여 마케팅까지해보자) //https://happyryu.tistory.com/m/389
 
 - 탕후루
