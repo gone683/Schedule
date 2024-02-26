@@ -27,7 +27,10 @@ AppStoreConnect에 AppStore에 IOS앱에 해당앱(제출준비중) 선택하여
   https://learnandcreate.tistory.com/2317?category=1191178
   빌드에러 
   -Undefined symbols:
-  - Linker command failed with exit code 1 (use -v to see invoation)
+
+https://stackoverflow.com/questions/19213782/undefined-symbols-for-architecture-arm64    	// arm64 참고용
+
+- Linker command failed with exit code 1 (use -v to see invoation)
 
 https://blog.naver.com/syowoo/220518896040
 https://byunsooblog.wordpress.com/2014/01/14/error-linker-command-failed-with-exit-code-1/comment-page-1/    << 이거봐
