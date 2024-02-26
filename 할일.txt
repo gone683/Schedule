@@ -30,6 +30,7 @@ AppStoreConnect에 AppStore에 IOS앱에 해당앱(제출준비중) 선택하여
   - Linker command failed with exit code 1 (use -v to see invoation)
 
 https://blog.naver.com/syowoo/220518896040
+https://byunsooblog.wordpress.com/2014/01/14/error-linker-command-failed-with-exit-code-1/comment-page-1/    << 이거봐
   
  3. 구글애즈 홍보하기 (유튜브 구글애즈 검색 하여 마케팅까지해보자) //https://happyryu.tistory.com/m/389
 
