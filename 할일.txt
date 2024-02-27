@@ -33,7 +33,7 @@ https://stackoverflow.com/questions/19213782/undefined-symbols-for-architecture-
 https://stackoverflow.com/questions/22323039/arm64-architecture-in-xcode-5-1
 
 - Linker command failed with exit code 1 (use -v to see invoation)
-
+https://gyaleon.wordpress.com/2013/05/09/linker-command-failed-with-exit-code-1/
 https://blog.naver.com/syowoo/220518896040
 https://byunsooblog.wordpress.com/2014/01/14/error-linker-command-failed-with-exit-code-1/comment-page-1/    << 이거봐
 https://stackoverflow.com/questions/39632301/where-is-the-run-script-and-build-phase-in-xcode 	<< xcode build phase 사용법
