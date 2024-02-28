@@ -14,6 +14,8 @@ AppStoreConnect에 AppStore에 IOS앱에 해당앱(제출준비중) 선택하여
 
  5. 기본앱 하나 만들어서 구글,애플 로그인 확인, 파이어베이스확인, 리더보드확인 
 
+개인정보 https://sites.google.com/view/gonenyoung/
+
 - 픽셀앱
  1. 열, 행 이미지와 클리어 모션 수정
 
