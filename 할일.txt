@@ -1,35 +1,10 @@
 할일정리
-- 기본설정
- 1. 맥북 기본세팅 및 유니티, Xcodes 설치부터 
-  //https://ifhead.tistory.com/entry/Unity-Mac-%EB%A7%A5-%EC%9C%A0%EB%8B%88%ED%8B%B0-%EB%B9%8C%EB%93%9C-%EC%84%B8%ED%8C%85
- 2. ios 스위치, 애플개발자 가입, 빌드까지테스트(와이프폰)
- 3. 애드몹은 일단 테스트아이디 
- 4. 인앱결제 확인하고 추가하기 
-    //https://www.youtube.com/watch?v=qNz3vmXZEcM
-    //https://nicgoon.tistory.com/224
-
-AppStoreConnect에 앱 등록해놓고.앱 내 추가 기능 - 앱 내 구입에다가 제품ID 코드랑 똑같이 넣어주고.
-AppStoreConnect에 AppStore에 IOS앱에 해당앱(제출준비중) 선택하여 앱 내 구입에 해당 상품 추가해주고.
-해당 앱 Identifiers에 In-App Purchase Enabled처리 해놨고요.
-
- 5. 기본앱 하나 만들어서 구글,애플 로그인 확인, 파이어베이스확인, 리더보드확인 
 
 개인정보 https://sites.google.com/view/gonenyoung/
 
 - 픽셀앱
  1. 열, 행 이미지와 클리어 모션 수정
-
- 2.!!!! 맥버전 xcode 버전 !!! 
-https://ajh322.tistory.com/139
- 3. 맥 오면 빌드업후 출시까지 
- - 아이폰 연결후 맥북에 아이튠즈 설치(폰 UDID 확인용)
- - 아이온의 개발자 인증 및 식별 등록 
- - 이후 빌드까지 진행해보
-  https://doch12.tistory.com/70
-  https://hsdev.tistory.com/entry/iOS-%EC%95%B1-%EB%B0%B0%ED%8F%AC-5-xcode-Archive-%ED%95%98%EA%B8%B0
-  https://learnandcreate.tistory.com/2317?category=1191178
-  빌드에러 
-일단 mac os와 xcode 버전 확인 
+ 3. 맥 오면 빌드업후 출시까지   
  4. 앱 배포하기 https://velog.io/@heyksw/iOS-%EC%95%B1%EC%8A%A4%ED%86%A0%EC%96%B4-%EB%B0%B0%ED%8F%AC%EA%B3%BC%EC%A0%95
  5. 구글애즈 홍보하기 (유튜브 구글애즈 검색 하여 마케팅까지해보자) //https://happyryu.tistory.com/m/389
 
