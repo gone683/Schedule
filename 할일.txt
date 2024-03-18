@@ -41,7 +41,10 @@ https://post.naver.com/viewer/postView.nhn?volumeNo=20101038&memberNo=43775668
      근데 스코어는 어디에 쓸것이니
  15. 시작화면 만들기 각 유리병은 구매하는방식으로 진행 
 
+개인정보
 https://sites.google.com/view/gonenyoung/
+
+
   					(크기 가로90 세로 100 비율, 두께 2.5씩차)
 	 과일		색상	스케일	비율	픽셀	스코어 
 1	블루베리		파랑	0.4	1	64	10
