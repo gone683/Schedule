@@ -12,8 +12,7 @@ https://post.naver.com/viewer/postView.nhn?volumeNo=20101038&memberNo=43775668
 - 탕후루
  1. 가이드라인 렌더러 만들기 (보류, 어려움) // https://www.youtube.com/watch?v=Y8MBgR53D10
  6. UI 만들기 
-	- 로딩 흩날리는 친구들 크기수정
-	- 비공개테스트 등록하기 
+	- 로딩 흩날리는 친구들 크기수정-
 	- 시작 메세지만들기, 중간중간 메세지 스크랩터만들기 (목표는 수박탕후루! 등등등)
 	- MessegeOn을 PoolUI로 만들어서 생성되게하자
 	- 파인애플 미만은 실패 만들기 애니메이션만들
